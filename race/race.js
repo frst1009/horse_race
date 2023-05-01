@@ -1,5 +1,5 @@
 // function raceStart(){
-//     let mySound = new Audio('./audio/01426.mp3');
+//     let horserSound = new Audio('./audio/01426.mp3');
 //     horseSound.play();
 //     horseSound.volume = 0.2;
 // }
