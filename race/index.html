@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button onclick="startRace()">Start</button>
+    </header>
+    <div class="main">
+        <div id="finish"></div>
+        <div class="horse" id="jewel_1"><img src="./img/horse.gif" alt="" width="100px" height="100px"></div>
+        <div class="horse" id="john_2"><img src="./img/horse.gif" alt="" width="100px" height="100px"></div>
+        <div class="horse" id="jessica_3"><img src="./img/horse.gif" alt="" width="100px" height="100px"></div>
+    </div>
+    <div class="section">
+    <p>Choose your horse:</p>
+    <select id="horseSelect">
+        <option value="jewel_1">Jewel</option>
+        <option value="john_2">John</option>
+        <option value="jessica_3">Jessica</option>
+    </select>
+    <p>Enter your bet amount:</p>
+    <input type="number" id="betAmount"></div>
+    <script src="/race.js"></script>
+</div>
+</body>
+
+</html>
